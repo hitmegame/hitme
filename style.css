@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&family=Varela+Round&display=swap');
+
+body {
+  background-color: #010114;
+  color: #fff;
+  font-family: 'Varela Round';
+}
+
+.game-image {
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+.game-image img {
+  width: 100%;
+  height: auto;
+  max-width: 400px; /* Adjust this value based on your preference */
+  transition: transform 0.3s;
+  border-radius: 15px; /* Ensure the border-radius is applied to the image */
+  display: block;
+}
+
+.game-image:hover img {
+  transform: scale(1.1);
+}
+
+.game-description {
+  padding: 20px; /* Add padding for better readability */
+}
+
+.download-button {
+  margin-top: 20px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo-img {
+  max-width: 250px; /* Adjust this value based on your logo size */
+}
+
+.description-container {
+  margin : 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.video-container video {
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+.video-demo {
+  width: 100%;
+  max-width: 800px; /* Adjust this value based on your video dimensions */
+  height: auto;
+}
+
+.developers-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.developer {
+  margin-bottom: 20px;
+}
+
+.developer i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.game-info-container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+hr {
+  background-color: white;
+}
+
+.end {
+  text-align: center;
+}
+.welcome{
+  margin: 20px;
+}
+.mainhead{
+font-family: 'Rubik Pixels';
+  font-size: 70px;
+}
+
+.mainhead1{
+    /* font-family: 'Rubik Pixels'; */
+      font-size: 60px;
+      font-weight: bolder;
+    }
+.blinking-text {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: yellow;
+  }
+  25% {
+    color: #3498db; /* Space Blue */
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: #ffcccb; /* Skin color */
+  }
+  100% {
+    color: yellow;
+  }
+}
